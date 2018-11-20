@@ -1,0 +1,34 @@
+{
+  "name": "headless-knight",
+  "version": "1.0.0",
+  "description": "Runs all urls javascript code using vm",
+  "main": "vm.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha tests/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kauegimenes/headless-knight.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kauegimenes/headless-knight/issues"
+  },
+  "homepage": "https://github.com/kauegimenes/headless-knight#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "jsdom": "^13.0.0",
+    "matchmedia": "^0.1.2",
+    "mutation-observer": "^1.0.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}

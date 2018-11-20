@@ -2,7 +2,7 @@
   "name": "headless-knight",
   "version": "1.0.0",
   "description": "Runs all urls javascript code using vm",
-  "main": "vm.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },

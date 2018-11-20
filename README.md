@@ -1,4 +1,4 @@
-# [WIP] headless-browser
+# [WIP]
 
 # USAGE
 

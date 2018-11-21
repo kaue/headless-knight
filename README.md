@@ -6,5 +6,10 @@
 
 ```javascript
 const headless = require('headless-knight');
-headless('https://google.com');
+const page = await headless('https://google.com');
 ```
+
+# TODO
+- `page.evaluate()` should run a script inside page scope
+- `page.scope` should return page scope
+
